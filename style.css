@@ -1,0 +1,44 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.spacing {
+  margin: 5px;
+}
+
+.button {
+  background-color: #1664c0;
+  border: 0;
+  border-radius: 2px;
+  padding: 5px;
+  width: min-content;
+  align-self: center;
+}
+
+.save-txt {
+  margin: 10px;
+  color: #ffffff;
+}
+
+#save-button:hover {
+  cursor: pointer;
+}
+
+.body {
+  justify-content: center;
+  margin: 10px;
+}
+
+.age-txt {
+  text-align: center;
+  font-size: 18px;
+  transition: all 0.5s ease;
+  color: #1664c0;
+}
+
+.txt {
+  text-align: center;
+  font-size: 12px;
+}
